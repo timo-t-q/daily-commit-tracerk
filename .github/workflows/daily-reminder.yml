@@ -2,8 +2,8 @@ name: Daily Commit Reminder
 
 on:
   schedule:
-    # Runs at 20:00 UTC (8 PM) every day
-    # Adjust timezone as needed: 20:00 UTC = 9 PM CEST (Budapest summer) / 8 PM CET (winter)
+    # Runs at 08:00 UTC (8 AM) and 20:00 UTC (8 PM) every day
+    - cron: '0 8 * * *'
     - cron: '0 20 * * *'
   
   # Allow manual trigger for testing
