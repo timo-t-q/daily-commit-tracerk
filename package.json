@@ -1,0 +1,25 @@
+{
+  "name": "daily-commit-reminder",
+  "version": "1.0.0",
+  "description": "Sends Discord reminder if you haven't committed today",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "check": "node index.js",
+    "test": "node index.js --test"
+  },
+  "keywords": [
+    "github",
+    "commit",
+    "reminder",
+    "discord",
+    "productivity"
+  ],
+  "author": "Timotej Tipary",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "dotenv": "^17.4.2",
+    "node-fetch": "^3.3.2"
+  }
+}
