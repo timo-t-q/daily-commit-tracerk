@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "check": "node index.js",
-    "test": "node index.js --test"
+    "test": "node index.js --test",
+    "weekly": "node weekly-summary.js"
   },
   "keywords": [
     "github",
