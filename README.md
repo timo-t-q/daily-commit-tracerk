@@ -154,7 +154,7 @@ MIT License
 
 ## 🤝 Contributing
 
-Built by Timotej Tipary
+Built by timo-t-q
 
 ---
 
